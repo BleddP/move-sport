@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socials",
+  "info": {
+    "singularName": "social",
+    "pluralName": "socials",
+    "displayName": "Socials",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "event_date": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "event",
+        "article",
+        "video"
+      ],
+      "default": "event",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

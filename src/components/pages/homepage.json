@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_homepages",
+  "info": {
+    "displayName": "Homepage",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "displayName": "Header",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.header",
+      "required": true
+    }
+  }
+}
