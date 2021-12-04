@@ -2,7 +2,7 @@
   "name": "move-sport",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi back-end for Move Sport Psychologie",
   "scripts": {
     "dev": "strapi develop",
     "start": "strapi start",
@@ -17,7 +17,7 @@
     "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Cloud Studio Ltd"
   },
   "strapi": {
     "uuid": "815869cf-e3ca-4c1d-8a4c-5ce3cf3bb404"
