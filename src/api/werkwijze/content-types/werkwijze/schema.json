@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "werkwijzes",
+  "info": {
+    "singularName": "werkwijze",
+    "pluralName": "werkwijzes",
+    "displayName": "werkwijze"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.header"
+    }
+  }
+}

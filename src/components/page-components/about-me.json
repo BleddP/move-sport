@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_components_about_mes",
+  "info": {
+    "displayName": "About Me",
+    "icon": "smile"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

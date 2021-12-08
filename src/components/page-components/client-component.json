@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_components_client_components",
+  "info": {
+    "displayName": "Clients",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client.client"
+    }
+  }
+}

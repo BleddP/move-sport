@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_components_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string",
+      "required": true
+    },
+    "Linktype": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ],
+      "required": true,
+      "default": "internal"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "button_type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary",
+      "required": true
+    }
+  }
+}
