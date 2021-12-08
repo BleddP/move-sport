@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "event_date": {
+    "date": {
       "type": "datetime"
     },
     "title": {
       "type": "string",
       "required": true
     },
-    "address": {
+    "location": {
       "type": "string"
     },
     "short_description": {

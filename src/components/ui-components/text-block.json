@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_components_text_blocks",
+  "info": {
+    "displayName": "Text block",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "introduction": {
+      "type": "text"
+    }
+  }
+}

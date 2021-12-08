@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "street": {
+      "type": "string",
+      "required": true,
+      "default": "Troelstrastraat 1"
+    },
+    "postcode": {
+      "type": "string",
+      "required": true,
+      "default": "3719 CD"
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "default": "Didam"
+    },
+    "country": {
+      "type": "string",
+      "required": true,
+      "default": "Nederland"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "default": "info@movesportpsychologie.nl"
+    }
+  }
+}

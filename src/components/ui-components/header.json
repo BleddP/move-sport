@@ -11,10 +11,10 @@
       "type": "string",
       "required": true
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
-    "Header_image": {
+    "header_image": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -24,11 +24,11 @@
         "videos"
       ]
     },
-    "Button": {
+    "buttons": {
       "displayName": "Button",
       "type": "component",
       "repeatable": true,
-      "component": "page-components.button"
+      "component": "ui-components.button"
     }
   }
 }

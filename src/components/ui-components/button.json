@@ -7,11 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "Text": {
+    "text": {
       "type": "string",
       "required": true
     },
-    "Linktype": {
+    "target": {
       "type": "enumeration",
       "enum": [
         "internal",

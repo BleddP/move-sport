@@ -4,17 +4,50 @@
   "info": {
     "singularName": "werkwijze",
     "pluralName": "werkwijzes",
-    "displayName": "werkwijze"
+    "displayName": "Werkwijze",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Header": {
+    "title": {
+      "type": "string",
+      "default": "Onze Werkwijze",
+      "required": false
+    },
+    "intro": {
+      "type": "text",
+      "required": true
+    },
+    "method_1": {
+      "type": "text"
+    },
+    "method_2": {
+      "type": "text"
+    },
+    "method_3": {
+      "type": "text"
+    },
+    "method_4": {
+      "type": "text"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "expenses": {
+      "displayName": "Text block",
       "type": "component",
       "repeatable": false,
-      "component": "page-components.header"
+      "component": "ui-components.text-block"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-block"
     }
   }
 }

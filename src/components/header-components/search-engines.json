@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_header_components_search_engines",
+  "info": {
+    "displayName": "Search Engines",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page_title": {
+      "type": "string",
+      "required": true
+    },
+    "page_description": {
+      "type": "text",
+      "required": true
+    },
+    "index": {
+      "type": "enumeration",
+      "enum": [
+        "index",
+        "noindex"
+      ],
+      "required": true,
+      "default": "index"
+    },
+    "follow": {
+      "type": "enumeration",
+      "enum": [
+        "follow",
+        "nofollow"
+      ],
+      "default": "follow",
+      "required": true
+    },
+    "og_locale": {
+      "type": "string",
+      "required": true,
+      "default": "nl-NL"
+    },
+    "og_title": {
+      "type": "string",
+      "required": true
+    },
+    "og_description": {
+      "type": "string",
+      "required": true
+    },
+    "og_site_name": {
+      "type": "string",
+      "default": "Move Sport Psychologie",
+      "required": true
+    },
+    "og_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

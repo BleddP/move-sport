@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_components_card_verticals",
+  "info": {
+    "displayName": "card_vertical",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "intro": {
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.button"
+    }
+  }
+}

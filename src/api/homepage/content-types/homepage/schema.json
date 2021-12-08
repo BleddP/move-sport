@@ -12,21 +12,44 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Header": {
+    "header": {
       "displayName": "Header",
       "type": "component",
       "repeatable": false,
-      "component": "page-components.header"
+      "component": "ui-components.header"
     },
-    "About": {
+    "clients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.client-component"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-components.partner-strip"
+    },
+    "services": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.services"
+    },
+    "about_me": {
+      "displayName": "about_me",
       "type": "component",
       "repeatable": false,
       "component": "page-components.about-me"
     },
-    "Clients": {
+    "mental_training": {
       "type": "component",
       "repeatable": false,
-      "component": "page-components.client-component"
+      "component": "page-components.mental-training"
+    },
+    "search_engines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header-components.search-engines",
+      "required": true
     }
   }
 }

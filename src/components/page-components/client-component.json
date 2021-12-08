@@ -11,6 +11,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::client.client"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Partners & Klanten"
+    },
+    "intro": {
+      "type": "text",
+      "required": true
     }
   }
 }
