@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_components_partner_strips",
   "info": {
-    "displayName": "partner_strip",
-    "icon": "arrows-alt-h"
+    "displayName": "Partner Strip",
+    "icon": "arrows-alt-h",
+    "description": ""
   },
   "options": {},
   "attributes": {

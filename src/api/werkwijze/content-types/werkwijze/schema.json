@@ -48,6 +48,11 @@
       "type": "component",
       "repeatable": false,
       "component": "ui-components.text-block"
+    },
+    "search_engines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header-components.search-engines"
     }
   }
 }

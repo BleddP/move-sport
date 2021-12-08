@@ -1,20 +1,21 @@
 {
   "collectionName": "components_ui_components_card_horizontals",
   "info": {
-    "displayName": "card_horizontal",
-    "icon": "arrow-alt-circle-right"
+    "displayName": "Card Horizontal",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "title": {
       "type": "string",

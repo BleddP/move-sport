@@ -1,19 +1,21 @@
 {
   "collectionName": "components_ui_components_card_verticals",
   "info": {
-    "displayName": "card_vertical",
-    "icon": "arrow-circle-down"
+    "displayName": "Card Vertical",
+    "icon": "arrow-circle-down",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string",

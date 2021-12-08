@@ -33,6 +33,11 @@
         "files",
         "videos"
       ]
+    },
+    "search_engines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header-components.search-engines"
     }
   }
 }

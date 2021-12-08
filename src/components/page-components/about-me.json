@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_components_about_mes",
   "info": {
-    "displayName": "about_me",
-    "icon": "apple-alt"
+    "displayName": "About Me",
+    "icon": "apple-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,13 +16,14 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

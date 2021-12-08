@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_components_mental_trainings",
   "info": {
-    "displayName": "mental_training",
-    "icon": "ambulance"
+    "displayName": "Mental Training",
+    "icon": "ambulance",
+    "description": ""
   },
   "options": {},
   "attributes": {
