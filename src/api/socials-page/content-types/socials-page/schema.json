@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "socials_pages",
+  "info": {
+    "singularName": "socials-page",
+    "pluralName": "socials-pages",
+    "displayName": "Socials Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "events": {
+      "displayName": "Events",
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.events"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.services"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.partner-strip"
+    }
+  }
+}

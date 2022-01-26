@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_components_events",
+  "info": {
+    "displayName": "Events",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "socials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social.social"
+    }
+  }
+}
