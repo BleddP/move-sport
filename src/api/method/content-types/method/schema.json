@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "work_methods",
+  "collectionName": "methods",
   "info": {
-    "singularName": "work-method",
-    "pluralName": "work-methods",
-    "displayName": "Work method",
-    "description": ""
+    "singularName": "method",
+    "pluralName": "methods",
+    "displayName": "Methods"
   },
   "options": {
     "draftAndPublish": true
@@ -13,19 +12,18 @@
   "pluginOptions": {},
   "attributes": {
     "icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "title": {
       "type": "string"
     },
-    "intro": {
+    "content": {
       "type": "text"
     }
   }

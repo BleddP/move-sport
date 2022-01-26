@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_components_methods",
+  "info": {
+    "displayName": "Methods",
+    "icon": "baby",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "methods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::method.method"
+    }
+  }
+}
