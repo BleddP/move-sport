@@ -1,23 +1,16 @@
 'use strict';
 
 /**
- *  werkwijze controller
+ *  contact-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::werkwijze.werkwijze', ({strapi}) => ({
+module.exports = createCoreController('api::contact-page.contact-page', ({strapi}) => ({
     async find(ctx) {
         const populateList = [
-            'header.header_image',
-            'header.buttons',
-            'services.services',
-            'services.services.image',
-            'methods',
-            'methods.methods',
-            'expenses',
-            'location',
-            'search_engines'
+            'content',
+            'contact'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

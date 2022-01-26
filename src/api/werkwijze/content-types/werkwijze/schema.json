@@ -37,11 +37,6 @@
       "repeatable": false,
       "component": "header-components.search-engines"
     },
-    "methods": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page-components.work-method"
-    },
     "services": {
       "type": "component",
       "repeatable": false,
