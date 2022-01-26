@@ -2,11 +2,12 @@
   "collectionName": "components_page_components_work_methods",
   "info": {
     "displayName": "Work Method",
-    "icon": "assistive-listening-systems"
+    "icon": "assistive-listening-systems",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "work_methods": {
+    "methods": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::work-method.work-method"

@@ -12,9 +12,8 @@ module.exports = createCoreController('api::werkwijze.werkwijze', ({strapi}) => 
             'header.header_image',
             'header.buttons',
             'services',
-            'services.image',
             'methods',
-            'methods.work_methods',
+            'methods.methods',
             'expenses',
             'location',
             'search_engines'
