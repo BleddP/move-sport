@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_components_work_methods",
+  "info": {
+    "displayName": "Work Method",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "work_methods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work-method.work-method"
+    }
+  }
+}

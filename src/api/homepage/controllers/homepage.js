@@ -12,8 +12,11 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
             'header.header_image',
             'header.buttons',
             'clients.clients',
+            'clients.clients.image',
             'partners.partners',
+            'partners.partners.logo',
             'services.services',
+            'services.services.image',
             'about_me',
             'mental_training',
             'search_engines'

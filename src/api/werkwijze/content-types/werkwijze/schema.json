@@ -21,23 +21,6 @@
       "type": "text",
       "required": true
     },
-    "method_1": {
-      "type": "text"
-    },
-    "method_2": {
-      "type": "text"
-    },
-    "method_3": {
-      "type": "text"
-    },
-    "method_4": {
-      "type": "text"
-    },
-    "services": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::service.service"
-    },
     "expenses": {
       "displayName": "Text block",
       "type": "component",
@@ -53,6 +36,16 @@
       "type": "component",
       "repeatable": false,
       "component": "header-components.search-engines"
+    },
+    "methods": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.work-method"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.services"
     }
   }
 }
