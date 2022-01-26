@@ -4,7 +4,8 @@
   "info": {
     "singularName": "socials-page",
     "pluralName": "socials-pages",
-    "displayName": "Socials Page"
+    "displayName": "Socials Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,6 +33,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page-components.partner-strip"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.client-component"
     }
   }
 }

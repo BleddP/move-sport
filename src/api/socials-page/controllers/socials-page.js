@@ -16,6 +16,10 @@ module.exports = createCoreController('api::socials-page.socials-page', ({strapi
             'events.socials',
             'partners',
             'partners.partners',
+            'partners.partners.logo',
+            'clients',
+            'clients.clients',
+            'clients.clients.image',
             'search_engines'
         ]
         // Push any additional query params to the array
