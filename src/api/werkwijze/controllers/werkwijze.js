@@ -9,11 +9,10 @@ const { createCoreController } = require('@strapi/strapi').factories;
 module.exports = createCoreController('api::werkwijze.werkwijze', ({strapi}) => ({
     async find(ctx) {
         const populateList = [
-            'header.header_image',
-            'header.buttons',
+            'methods.methods',
+            'methods.methods.icon',
             'services.services',
             'services.services.image',
-            'methods.methods',
             'expenses',
             'location',
             'search_engines'
