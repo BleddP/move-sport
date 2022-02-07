@@ -18,6 +18,7 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
             'services.services',
             'services.services.image',
             'about_me',
+            'about_me.image',
             'mental_training',
             'search_engines'
         ]
