@@ -20,6 +20,9 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
             'about_me',
             'about_me.image',
             'mental_training',
+            'mental_training.image_1.image',
+            'mental_training.image_2.image',
+            'mental_training.image_3.image',
             'search_engines'
         ]
         // Push any additional query params to the array
