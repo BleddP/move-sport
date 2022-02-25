@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "individuals",
+  "info": {
+    "singularName": "individual",
+    "pluralName": "individuals",
+    "displayName": "Individual",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.header"
+    },
+    "product_intro": {
+      "displayName": "Product_Intro",
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.product-intro"
+    },
+    "accordions": {
+      "type": "dynamiczone",
+      "components": [
+        "ui-components.accordion"
+      ]
+    },
+    "trajecten": {
+      "type": "dynamiczone",
+      "components": [
+        "ui-components.card-vertical"
+      ]
+    },
+    "search_engines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header-components.search-engines"
+    }
+  }
+}

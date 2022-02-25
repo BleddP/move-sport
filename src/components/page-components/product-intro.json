@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_components_product_intros",
+  "info": {
+    "displayName": "Product_Intro",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "intro": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "image_left",
+        "image_right"
+      ],
+      "default": "image_right",
+      "required": true
+    }
+  }
+}
