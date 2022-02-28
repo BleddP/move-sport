@@ -13,8 +13,9 @@ module.exports = createCoreController('api::werkwijze.werkwijze', ({strapi}) => 
             'methods.methods.icon',
             'services.services',
             'services.services.image',
-            'expenses',
-            'location',
+            'partners.partners',
+            'partners.partners.logo',
+            'accordions',
             'search_engines'
         ]
         // Push any additional query params to the array

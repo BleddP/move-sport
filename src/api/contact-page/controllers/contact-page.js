@@ -10,6 +10,8 @@ module.exports = createCoreController('api::contact-page.contact-page', ({strapi
     async find(ctx) {
         const populateList = [
             'content',
+            'partners.partners',
+            'partners.partners.logo',
             'contact'
         ]
         // Push any additional query params to the array

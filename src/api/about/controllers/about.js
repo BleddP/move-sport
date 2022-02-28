@@ -9,7 +9,10 @@ const { createCoreController } = require('@strapi/strapi').factories;
 module.exports = createCoreController('api::about.about', () => ({
     async find(ctx) {
         const populateList = [
-            'image'
+            'image',
+            'partners.partners',
+            'partners.partners.logo',
+            'search_engines'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

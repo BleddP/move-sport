@@ -20,6 +20,11 @@
     "intro": {
       "type": "text",
       "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.button"
     }
   }
 }

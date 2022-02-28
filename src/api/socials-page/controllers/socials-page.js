@@ -18,6 +18,7 @@ module.exports = createCoreController('api::socials-page.socials-page', ({strapi
             'partners.partners',
             'partners.partners.logo',
             'clients',
+            'clients.button',
             'clients.clients',
             'clients.clients.image',
             'search_engines'
