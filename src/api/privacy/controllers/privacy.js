@@ -1,12 +1,12 @@
 'use strict';
 
 /**
- *  terms-and-condition controller
+ *  privacy controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::terms-and-condition.terms-and-condition', ({strapi}) => ({
+module.exports = createCoreController('api::privacy.privacy', ({strapi}) => ({
     async find(ctx) {
         const populateList = [
             'privacy',
