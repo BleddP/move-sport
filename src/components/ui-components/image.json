@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_components_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

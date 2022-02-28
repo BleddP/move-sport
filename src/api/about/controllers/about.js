@@ -12,7 +12,10 @@ module.exports = createCoreController('api::about.about', () => ({
             'image',
             'partners.partners',
             'partners.partners.logo',
-            'search_engines'
+            'dynamic_content',
+            'dynamic_content.image',
+            'search_engines',
+            'search_engines.og_image',
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

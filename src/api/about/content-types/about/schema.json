@@ -26,13 +26,24 @@
         "videos"
       ]
     },
-    "intro": {
-      "type": "richtext"
-    },
     "partners": {
       "type": "component",
       "repeatable": false,
       "component": "page-components.partner-strip"
+    },
+    "dynamic_content": {
+      "type": "dynamiczone",
+      "components": [
+        "ui-components.text-block",
+        "ui-components.button",
+        "ui-components.accordion",
+        "ui-components.image"
+      ]
+    },
+    "search_engines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header-components.search-engines"
     }
   }
 }
