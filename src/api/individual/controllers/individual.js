@@ -15,6 +15,7 @@ module.exports = createCoreController('api::individual.individual', () => ({
             'product_intro',
             'product_intro.image',
             'accordions',
+            'trajecten_intro',
             'trajecten',
             'trajecten.image',
             'trajecten.buttons',

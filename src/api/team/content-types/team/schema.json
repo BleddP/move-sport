@@ -4,7 +4,8 @@
   "info": {
     "singularName": "team",
     "pluralName": "teams",
-    "displayName": "Team"
+    "displayName": "Team",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,6 +38,11 @@
       "type": "component",
       "repeatable": false,
       "component": "header-components.search-engines"
+    },
+    "trajecten_intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.text-block"
     }
   }
 }
