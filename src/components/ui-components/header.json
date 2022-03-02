@@ -27,7 +27,7 @@
     "buttons": {
       "displayName": "Button",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "ui-components.button"
     }
   }
