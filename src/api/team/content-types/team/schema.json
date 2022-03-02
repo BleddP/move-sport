@@ -19,7 +19,7 @@
     },
     "product_intro": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page-components.product-intro"
     },
     "accordions": {
