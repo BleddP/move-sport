@@ -11,19 +11,28 @@
       "type": "string",
       "default": "Over mij"
     },
-    "intro": {
-      "type": "text",
-      "required": true
-    },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
       ]
+    },
+    "intro": {
+      "type": "richtext",
+      "required": true
+    },
+    "signature": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

@@ -12,42 +12,47 @@
       "required": true,
       "default": "Mentale Training"
     },
+    "image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "image_3": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
     "intro_1": {
-      "type": "text",
+      "type": "richtext",
       "required": true
     },
     "intro_2": {
-      "type": "text"
+      "type": "richtext",
+      "required": true
     },
     "intro_3": {
-      "type": "text"
-    },
-    "image_1": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "image_2": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "image_3": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "richtext",
+      "required": true
     }
   }
 }

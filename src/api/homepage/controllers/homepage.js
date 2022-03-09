@@ -22,6 +22,7 @@ module.exports = createCoreController(
         "services.services.image",
         "about_me",
         "about_me.image",
+        "about_me.signature",
         "mental_training",
         "mental_training.image_1.image",
         "mental_training.image_2.image",
