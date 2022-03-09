@@ -10,6 +10,7 @@ module.exports = createCoreController('api::contact-page.contact-page', ({strapi
     async find(ctx) {
         const populateList = [
             'content',
+            'content.avatar',
             'partners.partners',
             'partners.partners.logo',
             'contact'
