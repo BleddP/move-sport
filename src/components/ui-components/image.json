@@ -2,18 +2,23 @@
   "collectionName": "components_ui_components_images",
   "info": {
     "displayName": "Image",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "max_width": {
+      "type": "integer"
     }
   }
 }

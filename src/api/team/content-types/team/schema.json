@@ -25,7 +25,8 @@
     "accordions": {
       "type": "dynamiczone",
       "components": [
-        "ui-components.accordion"
+        "ui-components.accordion",
+        "ui-components.rich-text"
       ]
     },
     "trajecten": {
