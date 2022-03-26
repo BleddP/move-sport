@@ -9,4 +9,17 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  email: {
+    config: {
+      provider: 'sendgrid',
+      providerOptions: {
+        apiKey: env('SENDGRID_API_KEY'),
+      },
+      settings: {
+        defaultFrom: 'bleddyn.pijpers@cloud-studio.co.uk',
+        defaultReplyTo: 'bleddyn.pijpers@cloud-studio.co.uk',
+        testAddress: 'bleddyn.pijpers@cloud-studio.co.uk',
+      },
+    },
+  },
 });

@@ -17,10 +17,6 @@
       "default": "Onze Werkwijze",
       "required": false
     },
-    "intro": {
-      "type": "text",
-      "required": true
-    },
     "search_engines": {
       "type": "component",
       "repeatable": false,
@@ -46,6 +42,9 @@
       "components": [
         "ui-components.accordion"
       ]
+    },
+    "intro": {
+      "type": "richtext"
     }
   }
 }

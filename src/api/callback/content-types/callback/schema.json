@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "callbacks",
+  "info": {
+    "singularName": "callback",
+    "pluralName": "callbacks",
+    "displayName": "Callbacks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "returned_call": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
