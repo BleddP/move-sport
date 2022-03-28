@@ -13,7 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "phone": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 12
     },
     "date": {
       "type": "datetime"
