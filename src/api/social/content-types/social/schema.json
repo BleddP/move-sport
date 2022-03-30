@@ -38,6 +38,16 @@
     },
     "url": {
       "type": "string"
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "pin_to_top": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
