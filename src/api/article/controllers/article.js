@@ -33,6 +33,7 @@ module.exports = createCoreController("api::article.article", ({ strapi }) => ({
         "author",
         "author.author_image",
         "body",
+        "body.image",
         "search_engines",
         "search_engines.og_image",
       ];
