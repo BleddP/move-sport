@@ -46,8 +46,8 @@ module.exports = createCoreController("api::contact-form.contact-form", ({ strap
 
       await strapi.plugins["email"].services.email.send({
         to: process.env.EMAIL_TO,
-        from: body.email,
-        replyTo: body.email,
+        from: process.env.EMAIL_TO,
+        replyTo: process.env.EMAIL_TO,
         subject: "Contactformulier ingevuld op de website!",
         text: `Hi Chloe, er is een nieuw contactformuler ingevuld. Naam: ${body.name}, email: ${body.email}, telefoon nummer: ${body.phone}. Type training: ${body.type}. Bericht: ${body.message}`,
         html: template,
