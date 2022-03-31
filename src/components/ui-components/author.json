@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_components_authors",
+  "info": {
+    "displayName": "Author",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "author_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -12,32 +12,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "subtitle": {
-      "type": "text",
-      "required": true
-    },
-    "body": {
-      "type": "richtext",
-      "required": true
-    },
-    "hero_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
     "search_engines": {
       "type": "component",
       "repeatable": false,
       "component": "header-components.search-engines"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.header"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "ui-components.rich-text",
+        "ui-components.image",
+        "ui-components.button",
+        "ui-components.accordion"
+      ]
+    },
+    "author": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.author"
     }
   }
 }
