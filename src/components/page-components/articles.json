@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_components_articles",
+  "info": {
+    "displayName": "Articles",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

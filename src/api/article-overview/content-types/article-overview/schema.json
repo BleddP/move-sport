@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article-overview",
     "pluralName": "article-overviews",
-    "displayName": "Article Overview"
+    "displayName": "Article Overview",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,9 +27,9 @@
       "required": true
     },
     "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
+      "type": "component",
+      "repeatable": false,
+      "component": "page-components.articles"
     }
   }
 }

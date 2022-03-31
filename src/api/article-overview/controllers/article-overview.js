@@ -14,10 +14,9 @@ module.exports = createCoreController(
         "header.header_image",
         "header",
         "articles",
-        "articles.article",
-        "articles.article.title",
-        "articles.article.image",
-        "articles.article.short_description",
+        "articles.articles",
+        "articles.articles.article_card",
+        "articles.articles.article_card.image",
         "search_engines",
         "search_engines.og_image",
       ];
