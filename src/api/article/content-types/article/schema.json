@@ -40,6 +40,9 @@
       "type": "component",
       "repeatable": false,
       "component": "ui-components.article-card"
+    },
+    "highlight": {
+      "type": "boolean"
     }
   }
 }
