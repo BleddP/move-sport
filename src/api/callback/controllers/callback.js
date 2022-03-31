@@ -47,8 +47,8 @@ module.exports = createCoreController('api::callback.callback', ({strap}) => ({
   
         await strapi.plugins["email"].services.email.send({
           to: process.env.EMAIL_TO,
-          from: body.email,
-          replyTo: body.email,
+          from: process.env.EMAIL_TO,
+          replyTo: process.env.EMAIL_TO,
           subject: "Nieuw terugbelverzoek!",
           text: `Terugbelverzoek ontvangen van ${body.phone}. Ontvangen op ${body.received}`,
           html: template,
